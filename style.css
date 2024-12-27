@@ -33,6 +33,9 @@ body{
     align-items: center;
     padding: 5%;
 }
+#main{
+    font-size: 2rem;
+}
 .right{
    
     width: 50%;
@@ -46,10 +49,11 @@ body{
    }
    .nav{
     display: flex;
+    height: 6%;
     
    }
    .logo{
-    padding: 0.5rem;
+   
     width: 30vw;
    }
    .side{
@@ -88,7 +92,7 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     }
     .left{
         width: 100%;
-        height: 60%;
+        height: 50%;
         
     }
     .right{
@@ -100,12 +104,29 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
         width: 70%;
         margin-top: 15%;
     }
+    .nav{
+        height: 10%;
+
+    }
+    a{
+        padding: 0;
+        font-size: 10px;
+    }
+    
    
 
   }
   @media (max-width:500px){
     p{
         font-size: 10px;
+    }
+    #main{
+        font-size: 1rem;
+        
+    }
+    .nav{
+        height: 7%;
+
     }
   }
   @media (min-width:800px){
